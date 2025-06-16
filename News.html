@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Игровые Новости</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Segoe UI', sans-serif;
+      background: transparent;
+      color: #fff;
+    }
+
+    .news-container {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .news-card {
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      transition: transform 0.2s;
+    }
+
+    .news-card:hover {
+      transform: scale(1.02);
+    }
+
+    .news-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .news-date {
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-bottom: 1rem;
+    }
+
+    .news-image {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+    }
+
+    .news-text {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="news-container">
+    <div class="news-card">
+      <div class="news-title">Обновление 1.2: Новые миссии и боссы</div>
+      <div class="news-date">15 июня 2025</div>
+      <img class="news-image" src="https://example.com/news1.jpg" alt="Новость 1">
+      <div class="news-text">
+        Сегодня в игру добавлены новые миссии в регионе Ледяных Пиков и два уникальных босса. Попробуйте свои силы и получите редкие награды!
+      </div>
+    </div>
+
+    <div class="news-card">
+      <div class="news-title">Событие: Летний фестиваль</div>
+      <div class="news-date">10 июня 2025</div>
+      <img class="news-image" src="https://example.com/news2.jpg" alt="Новость 2">
+      <div class="news-text">
+        До конца месяца в игре проходит Летний фестиваль! Участвуйте в ивентах, собирайте монеты и обменивайте их на эксклюзивные скины.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
